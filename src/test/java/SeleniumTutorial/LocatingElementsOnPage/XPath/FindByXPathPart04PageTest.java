@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart04Page extends BasePage {
+public class FindByXPathPart04PageTest extends BasePage {
 
     /**
      * The "//*[@id!='clickOnMe']" selector searches all elements of the HTML page for all elements whose id attribute

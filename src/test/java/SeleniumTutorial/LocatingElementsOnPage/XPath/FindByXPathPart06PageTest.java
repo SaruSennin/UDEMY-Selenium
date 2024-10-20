@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart06Page extends BasePage {
+public class FindByXPathPart06PageTest extends BasePage {
 
     /**
      * Using the "//a | //div" selector, we search for all <a> and <div> elements in the HTML page

@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart03Page extends BasePage {
+public class FindByXPathPart03PageTest extends BasePage {
 
     /**
      * The "//*" selector selects all elements in an HTML page

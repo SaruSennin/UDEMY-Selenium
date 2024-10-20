@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart05Page extends BasePage {
+public class FindByXPathPart05PageTest extends BasePage {
 
     /**
      * Using the "//div/child::ul" selector, we search for all <div> elements in the HTML page, and then use child::ul

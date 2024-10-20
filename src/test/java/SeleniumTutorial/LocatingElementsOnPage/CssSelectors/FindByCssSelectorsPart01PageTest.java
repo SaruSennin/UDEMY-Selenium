@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * Metoda By.cssSelector w Selenium pozwala na znalezienie elementów na stronie internetowej przy użyciu selektorów CSS.
  * Jest to bardzo elastyczna metoda lokalizacji, która umożliwia wyszukiwanie elementów z użyciem różnorodnych reguł
  */
-public class FindByCssSelectorsPart01Page extends BasePage {
+public class FindByCssSelectorsPart01PageTest extends BasePage {
 
     /**
      * By.cssSelector("#identifier")

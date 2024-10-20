@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByCssSelectorsPart02Page extends BasePage {
+public class FindByCssSelectorsPart02PageTest extends BasePage {
 
     /**
      * The By.cssSelector("*") method returns all elements on the page

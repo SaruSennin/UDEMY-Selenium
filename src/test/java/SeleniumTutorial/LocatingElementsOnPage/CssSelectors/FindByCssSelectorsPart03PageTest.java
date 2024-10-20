@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByCssSelectorsPart03Page extends BasePage {
+public class FindByCssSelectorsPart03PageTest extends BasePage {
 
     /**
      * By.cssSelector("tag[attribute='valueOfAttribute']") thanks to this selector we can find an HTML element based on

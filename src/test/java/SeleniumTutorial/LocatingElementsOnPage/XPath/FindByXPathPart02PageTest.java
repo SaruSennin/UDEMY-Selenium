@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart02Page extends BasePage {
+public class FindByXPathPart02PageTest extends BasePage {
 
     /**
      * The "//tag[@key='value']" selector uses xpath to search the entire HTML file for a <tag> element whose key is equal to the specified value

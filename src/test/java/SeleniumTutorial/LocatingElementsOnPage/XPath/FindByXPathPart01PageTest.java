@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByXPathPart01Page extends BasePage {
+public class FindByXPathPart01PageTest extends BasePage {
 
     /**
      * The selector using the path /tag1/tag2//tag3 will find an element or list of elements with the tag <tag3>

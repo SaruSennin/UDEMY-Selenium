@@ -5,7 +5,7 @@ import SeleniumTutorial.Util;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class FindByCssSelectorsPart04Page extends BasePage {
+public class FindByCssSelectorsPart04PageTest extends BasePage {
 
     /**
      * The By.cssSelector("TagName:first-child") method in Selenium uses a CSS selector to find the first element

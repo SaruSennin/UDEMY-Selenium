@@ -12,7 +12,7 @@ public class FindByXPathPart02PageTest extends BasePage {
      * in the example below "//button[@id='clickOnMe']"
      * // - we search the entire HTML file
      * button - we search for the <button> element
-     * @id - which has an element id
+     * id - which has an element id
      * 'clickOnMe' - with the value is clickOnMe
      */
     @Test

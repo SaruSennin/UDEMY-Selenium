@@ -1,4 +1,4 @@
-package SeleniumTutorial.ActionOnElements;
+package SeleniumTutorial.P2_ActionOnElements;
 
 import SeleniumTutorial.PageClass.DoubleClickPage;
 import org.openqa.selenium.By;

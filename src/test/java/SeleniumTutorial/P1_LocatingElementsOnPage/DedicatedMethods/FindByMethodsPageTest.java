@@ -1,4 +1,4 @@
-package SeleniumTutorial.LocatingElementsOnPage.DedicatedMethods;
+package SeleniumTutorial.P1_LocatingElementsOnPage.DedicatedMethods;
 
 import SeleniumTutorial.PageClass.BasePage;
 import SeleniumTutorial.Util;

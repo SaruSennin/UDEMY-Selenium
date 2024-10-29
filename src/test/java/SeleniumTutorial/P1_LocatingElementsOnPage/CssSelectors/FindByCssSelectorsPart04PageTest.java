@@ -1,4 +1,4 @@
-package SeleniumTutorial.LocatingElementsOnPage.CssSelectors;
+package SeleniumTutorial.P1_LocatingElementsOnPage.CssSelectors;
 
 import SeleniumTutorial.PageClass.BasePage;
 import SeleniumTutorial.Util;

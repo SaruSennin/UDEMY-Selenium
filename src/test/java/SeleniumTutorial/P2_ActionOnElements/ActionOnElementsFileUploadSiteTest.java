@@ -1,4 +1,4 @@
-package SeleniumTutorial.ActionOnElements;
+package SeleniumTutorial.P2_ActionOnElements;
 
 import SeleniumTutorial.PageClass.FileUploadClass;
 import org.apache.commons.io.FileUtils;

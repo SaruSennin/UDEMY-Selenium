@@ -1,4 +1,4 @@
-package SeleniumTutorial.LocatingElementsOnPage.XPath;
+package SeleniumTutorial.P1_LocatingElementsOnPage.XPath;
 
 import SeleniumTutorial.PageClass.BasePage;
 import SeleniumTutorial.Util;

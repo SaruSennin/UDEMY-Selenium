@@ -36,13 +36,14 @@ public class HomeworkFormTest extends BasePage {
     @Test
     public void checkSubmitButtonTest() {
         WebElement buttonSubmit = chromeDriver.findElement(By.cssSelector("input[type='submit']"));
+        Assert.assertTrue(buttonSubmit.isEnabled(), "Przycisk powinien być dostępny");
+        Assert.assertTrue(buttonSubmit.isDisplayed(), "Przycisk powinien być widoczny");
         buttonSubmit.click();
         WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(10));
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
         Assert.assertEquals(alert.getText(), "Formularz wyslany", "Oczekiwany alert nie został wyswietlony");
         alert.accept();
         Assert.assertEquals(alert.getText(), "On submit method", "Oczekiwany alert nie został wyswietlony");
-        Assert.assertTrue(buttonSubmit.isEnabled(), "Przycisk powinien być dostępny");
-        Assert.assertTrue(buttonSubmit.isDisplayed(), "Przycisk powinien być widoczny");
+        alert.accept();
     }
 }
